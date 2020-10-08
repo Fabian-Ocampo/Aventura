@@ -1,0 +1,147 @@
+html, body, div, span, applet, object, iframe,
+ h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+ a, abbr, acronym, address, big, cite, code,
+ del, dfn, em, img, ins, kbd, q, s, samp,
+ small, strike, strong, sub, sup, tt, var,
+ b, u, i, center,
+ dl, dt, dd, ol, ul, li,
+ fieldset, form, label, legend,
+ table, caption, tbody, tfoot, thead, tr, th, td,
+ article, aside, canvas, details, embed, 
+ figure, figcaption, footer, header, hgroup, 
+ menu, nav, output, ruby, section, summary,
+ time, mark, audio, video {
+     margin: 0;
+     padding: 0;
+     border: 0;
+     font-size: 100%;
+     font: inherit;
+     vertical-align: baseline;
+ }
+ 
+ /* HTML5 display-role reset for older browsers */
+ article, aside, details, figcaption, figure, 
+ footer, header, hgroup, menu, nav, section {
+     display: block;
+ }
+ body {
+     line-height: 1;
+ }
+ ol, ul {
+     list-style: none;
+ }
+ blockquote, q {
+     quotes: none;
+ }
+ blockquote:before, blockquote:after,
+ q:before, q:after {
+     content: '';
+     content: none;
+ }
+ table {
+     border-collapse: collapse;
+     border-spacing: 0;
+ }
+ body{
+     margin: 0;
+     padding: ;
+     display: flex;
+     height: 100vh;
+     flex-direction: column;
+ }
+ 
+ .search-container{
+     display: flex;
+     flex-direction: column;
+     align-items: left;
+     height: 100%;
+     background-image:url(./cam.jpg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     height:65%;
+    
+    }
+
+ svg{
+     fill: currentColor;
+     color: rgb(240, 238, 233);
+     height: 60px;
+     width: 40px;
+     margin-left:1rem;
+     margin-top: 2rem;
+ }
+
+ .profile--pic{
+     margin-top: 1rem;
+     margin-right: 2rem;
+     height: 2.5rem;
+     width: 2.5rem;
+     border-radius: 30px;
+     margin-right: 2rem;
+ }
+
+ 
+
+ .header-search{
+     
+ width: 90%;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin-top:1rem;
+ }
+
+ p{
+   color: white;
+   margin-left: 2rem;
+ }
+ p.saludo{
+     margin-top: 1rem;
+     margin-bottom: 1.5rem;
+     font-size: 1.2rem;
+ }
+
+ p.titulo1{
+     font-size: 1.5rem;
+     line-height: 0.8;
+ }
+ p.titulo2{
+     color: yellow;
+     font-size: 1.5rem;
+     color:brown(228, 228, 96);
+
+
+    
+ }
+ input{
+     margin-top: 3rem;
+     margin-left:1rem;
+     width: 80%;
+     height:0.5rem;
+     border-radius:90px;
+     padding-top: 0.5rem;
+     padding-bottom:1rem;
+     padding-left: 90px;
+ }
+
+ .search-input{
+     position: relative;
+     width: 80%;
+     
+ }
+
+ input:focus{
+     outline: 0;
+ }
+
+ .svg-search{
+     width:15%;
+     height:1.8rem ;
+     position: absolute;
+     bottom:1.5px;
+     padding-bottom:1px;
+     left:1px;
+     fill: currentColor;
+     color: rgb(179, 173, 173);
+ }
